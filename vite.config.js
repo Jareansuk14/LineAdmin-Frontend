@@ -6,13 +6,7 @@ export default defineConfig({
   plugins: [react()],
   base: '/',
   server: {
-    port: 3000,
-    proxy: {
-      '/api': {
-        target: 'https://lineadmin-backend.onrender.com',
-        changeOrigin: true,
-      }
-    }
+    port: 3000
   },
   build: {
     outDir: 'dist',
