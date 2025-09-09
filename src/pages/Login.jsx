@@ -130,12 +130,6 @@ const Login = () => {
             </Button>
           </Form.Item>
         </Form>
-
-        <div className="text-center mt-4">
-          <Text type="secondary" style={{ fontSize: '12px' }}>
-            บัญชีเริ่มต้น: Admin / 1234
-          </Text>
-        </div>
       </Card>
     </div>
   );
