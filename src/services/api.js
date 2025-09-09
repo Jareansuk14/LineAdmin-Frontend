@@ -2,7 +2,7 @@ import axios from 'axios';
 
 // Create axios instance with base configuration
 const api = axios.create({
-  baseURL: import.meta.env.VITE_API_BASE_URL || '/api',
+  baseURL: 'https://lineadmin-backend.onrender.com/api',
   timeout: 10000,
   headers: {
     'Content-Type': 'application/json',
